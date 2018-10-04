@@ -1,0 +1,335 @@
+html {
+  font-size: 16px;
+}
+h1 a {
+  background: url('../images/devilogo.png') no-repeat;
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+h1 a span {
+  display: none;
+}
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #6fa1a3;
+  padding: 20px 0;
+  text-align: center;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #676767;
+  padding: 0 0 .5rem 0;
+  text-align: left;
+  margin-bottom: .5rem;
+  /*outline: 1px silver solid;*/
+}
+p {
+  color: #676767;
+  padding: 0;
+  line-height: 1.2rem;
+  text-align: center;
+}
+body {
+  max-width: 100%;
+  font-family: helvetica, sans-serif;
+}
+.site-wrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+#lang-nav-wrapper {
+  width: 100%;
+  background-color: #a9d1d3;
+}
+.lang-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2rem;
+}
+.linkovi  {
+  text-decoration: none;
+  padding: 0 .5rem;
+  color: white;
+  opacity: .5;
+}
+.linkovi:hover {
+  padding: 0 .5rem;
+  color: white;
+  opacity: 1;
+}
+#header-wrapper {
+  background-color: #6fa1a3;
+}
+.header, .header ul {
+  display: flex;
+  height: 6rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.main-opis {
+  padding: 5rem 0;
+}
+.main-opis p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+.proizvod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid silver;
+  padding: 3rem 0;
+  /*outline: 2px red solid;*/
+}
+.proizvod-opis-rev {
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: 1px solid silver;
+  /*outline: 2px red solid;*/
+}
+.proizvod-opis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /*outline: 1px red solid;*/
+}
+.proizvod-opis-nadnaslov {
+  display: block;
+  clear: both;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: .6rem;
+}
+.proizvod-opis p {
+  text-align: left;
+  /*outline: 1px silver solid;*/
+}
+.proizvod-opis a {
+  background-color: #6fa1a3;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  /*outline: 1px silver solid;*/
+}
+.proizvod-opis a:hover {
+  background-color: #a9d1d3;
+  transition: 0.3s;
+}
+.proizvod img {
+  display: block;
+  margin: 0 auto;
+  max-height: auto;
+  max-width: 100%;
+  /*outline: 1px silver solid;*/
+}
+#kontakt {
+  padding: 2rem 0;
+  border-top: 1px solid silver;
+}
+#kontakt span {
+  display: block;
+  font-weight: bold;
+  padding: 1rem;
+  color: #6fa1a3;
+  font-size: 2rem;
+}
+#kontakt p {
+  padding-bottom: 2rem;
+}
+.kontakt-container {
+}
+#kontakt input[type=text] {
+  display: inline-block;
+  width: 100%;
+  resize: vertical;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin: 1rem auto;
+  border: none;
+  background-color: #fde0d0;
+  /*outline: 1px red solid;*/
+}
+#kontakt textarea {
+  display: inline-block;
+  width: 100%;
+  resize: vertical;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin: 1rem auto;
+  border: none;
+  background-color: #fde0d0;
+  /*outline: 1px red solid;*/
+}
+#kontakt label {
+  display: inline-block;
+  padding: 1rem 0;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #6fa1a3;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+input[type=submit]:hover {
+  width: 20%;
+  background-color: #a9d1d3;
+  transition: 0.3s;
+}
+label {
+  font-weight: bold;
+  color:#676767;
+  font-weight: bold;
+}
+#footer {
+  background-color: #a9d1d3;
+  max-width: 100%;
+  padding: 2rem 0 0 0;
+}
+#footer h3 {
+  text-align: center;
+  padding: 0 0 1rem 0;
+  color: white;
+}
+#footer h4 {
+  background-image: url("../images/hs-logo-01.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  display: block;
+  max-width: 30%;
+  height: 3rem; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: #6aaaad;
+  margin: 2rem auto;
+}
+#footer h4 span {
+  display: none;
+}
+#footer  p {
+  color: white;
+  line-height: 2rem;
+  padding: 0 0 0 0;
+}
+.sertifikati {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.sertifikati img {
+  padding: .5rem .5rem;
+  border-radius: 100%;
+  max-width: 80%;
+  max-height: auto;
+  /*outline: 1px red solid;*/
+}
+.main-site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-image: url("../images/hs-podloga_547784302.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  /*height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: #6aaaad;
+}
+.main-site a {
+  display: block;
+  width:100px;
+  margin: 0 auto;
+  /*background-color: #d39a7b;*/
+  border: 1px solid #a9d1d3;
+  padding: 1rem 2rem;
+  margin: 2rem auto 4rem auto;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  /*outline: 1px silver solid;*/
+}
+.main-site a:hover {
+  background-color: #a9d1d3;;
+  transition: 0.3s;
+  color: #6aaaad;;
+}
+.impresum p {
+  padding: 1rem 0;
+  font-size: .8rem;
+  line-height: 1rem;
+  text-align: justify;
+}
+.impresum a {
+  font-size: .8rem;
+  display: block;
+  margin: 0 auto 2rem 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: silver;
+  opacity: .8;
+  text-align: right;
+  border-top: 1px silver solid;
+  padding-top: 1rem;
+}
+.impresum a:hover {
+  color: #6aaaad;
+  opacity: 1;
+}
+
+/*--- Media queries TABLETS ---*/
+
+@media only screen and (max-width: 768px) {
+  .site-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
